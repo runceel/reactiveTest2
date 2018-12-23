@@ -36,6 +36,7 @@ namespace ReactiveTest
 			// ここで新しくリストを生成すると表示が更新される
 			// NamesSource = new List<string>( NamesSource );
 
+
 			PropertyChanged?.Invoke( this, new PropertyChangedEventArgs( nameof(NamesSource) ) );
 		}
 	}
